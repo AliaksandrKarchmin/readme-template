@@ -96,37 +96,28 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
+* [.NET Core 3.1]()
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+   1. Clone repository
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
+   2. Configure AWS MFA credentials (if required). Link to doc
+   3. Turn on the us-vpn
+   4. Start the application. Expected result. What can we see which means app is running.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://example.com)
 
-
+[Swagger](https://example.com)
+[SonarQube](https://example.com)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -137,15 +128,35 @@ See the [open issues](https://github.com/AliaksandrKarchmin/readme-template/issu
 
 <!-- CONTRIBUTING -->
 ## Contributing
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+<!-- GIT FLOW -->
+## Git workflow
+Project uses [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=The%20overall%20flow%20of%20Gitflow,branch%20is%20created%20from%20develop&text=When%20a%20feature%20is%20complete%20it%20is%20merged%20into%20the,merged%20into%20develop%20and%20main)
+Flow steps:
+1. New code: 
+   * Create branch
+   * Make changes. Included steps description
+   * Push changes. Included steps description
+   * Pull request. Included steps description
+   * Code review. Included steps description
+   * Merging code. Included steps description
+   * Releasing code. Included steps description
+2. Feature branch: What for branch is used. How to contribute
+3. Develop: What for branch is used. How to contribute
+4. Release: What for branch is used. How to contribute
+5. Main: What for branch is used. How to contribute
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+<!-- Logging -->
+## Logging
+* Application writes logs to SumoLogic with following keys: _sourceCategory at least
+* Which logger is used (ref in code)
+* Basic principles of how/what is logged
 
+<!-- CI/CD -->
+## CI/CD
+* Application uses bamboo. [Link to application plan]()
+* Briefly go through the steps are configured in ci/cd pipelines
 
 <!-- CONTACT -->
 ## Contact
@@ -154,7 +165,8 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-
+Feel free to reach out to our experts:
+* List of experts or reference to code owners
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -169,9 +181,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Sticky Kit](http://leafo.net/sticky-kit)
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
