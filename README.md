@@ -23,8 +23,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -52,8 +50,6 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Screen Shot][product-screenshot]](https://example.com)
@@ -69,17 +65,18 @@ This section should list any major frameworks that you built your project using.
 * [EntityFramework](https://docs.microsoft.com/en-us/ef/)
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
+
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 
 * [.NET Core 3.1]()
+
 
 ### Installation
 
@@ -89,30 +86,29 @@ This is an example of how to list things you need to use the software and how to
    ```
    2. Configure AWS MFA credentials (if required). Link to doc
    3. Turn on the us-vpn
-   4. Start the application. Expected result. What can we see which means app is running.
+   4. Start the application. Indicator whether application runs successfully is: ...
 
-<!-- USAGE EXAMPLES -->
+
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, KT sessions links and demos work well in this space. You may also link more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)
 
 [Swagger](https://example.com)
 [SonarQube](https://example.com)
 
-<!-- ROADMAP -->
+
 ## Roadmap
 
 See the [open issues](https://github.com/AliaksandrKarchmin/readme-template/issues) for a list of proposed features (and known issues).
+Also roadmap is tracked in [confluence](https://example.com)
 
 
-
-<!-- CONTRIBUTING -->
 ## Contributing
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<!-- GIT FLOW -->
+
 ## Git workflow
 Project uses [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=The%20overall%20flow%20of%20Gitflow,branch%20is%20created%20from%20develop&text=When%20a%20feature%20is%20complete%20it%20is%20merged%20into%20the,merged%20into%20develop%20and%20main)
 Flow steps:
@@ -129,31 +125,42 @@ Flow steps:
 4. Release: What for branch is used. How to contribute
 5. Main: What for branch is used. How to contribute
 
-<!-- Logging -->
 ## Logging
-* Application writes logs to SumoLogic with following keys: _sourceCategory at least
-* Which logger is used (ref in code)
-* Basic principles of how/what is logged
+Application writes logs to [SumoLogic](https://service.us2.sumologic.com) with following keys:
+1. _sourceCategory is __xxx__
+2. any more details...
 
-<!-- CI/CD -->
+Application uses [this library](https://example.com) to write logs. Implementation can be found [here](https://example.com)
+How and which logs are gathered and written?
+1. first principle
+2. second principle
+3. ...
+
 ## CI/CD
-* Application uses bamboo. [Link to application plan]()
-* Briefly go through the steps are configured in ci/cd pipelines
+Application is built with [bamboo](https://www.atlassian.com/software/bamboo) using [this application plan](https://bamboo.us.axs.com/browse/xxx)
+Steps application go through before build (what is the type of output: docker/dll) is ready:
+1. ...
+2. ...
+3. ...
 
-<!-- CONTACT -->
+Application is deployed by [Spinnaker](https://spinnaker.io).
+Deploy should be triggered by appropriate button in bamboo, then artifacts are built and sent over to Spinnaker to deploy new container applying blue-green deployment.
+...More details
+
+
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Your Name - [GitHub](https://github.com/your_username) - email@example.com
 
 Feel free to reach out to our experts:
-* List of experts or reference to code owners
+* List of experts or reference to [code owners](https://github.com/aegaxs/{repository}/blob/develop/.github/CODEOWNERS)
 
-<!-- ACKNOWLEDGEMENTS -->
+Jira Project Link: [Project Name](https://axsteam.atlassian.net/secure/RapidBoard.jspa?rapidView={xxx}&projectKey={xxxx})
+
+
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
+* [Bamboo documentation](https://confluence.atlassian.com/bamboo/bamboo-documentation-289276551.html)
+* [Spinnaker guides](https://spinnaker.io/docs/guides/)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
 * [Animate.css](https://daneden.github.io/animate.css)
@@ -165,8 +172,6 @@ Feel free to reach out to our experts:
 * [Font Awesome](https://fontawesome.com)
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/AliaksandrKarchmin/readme-template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
