@@ -96,6 +96,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)
 
 [Swagger](https://example.com)
+
 [SonarQube](https://example.com)
 
 
@@ -160,25 +161,4 @@ Jira Project Link: [Project Name](https://axsteam.atlassian.net/secure/RapidBoar
 
 ## Acknowledgements
 * [Bamboo documentation](https://confluence.atlassian.com/bamboo/bamboo-documentation-289276551.html)
-* [Spinnaker guides](https://spinnaker.io/docs/guides/)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/AliaksandrKarchmin/readme-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/AliaksandrKarchmin/readme-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/AliaksandrKarchmin/readme-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/AliaksandrKarchmin/readme-template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[product-screenshot]: images/screenshot.png
+* [Spinnaker guides](https://spinnaker.io/docs/guides)
