@@ -1,23 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <h3 align="center">Application-README-Template</h3>
-
-  <p align="center">
-    Application template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://www.atlassian.com/software/jira">View Demo</a>
-    ·
-    <a href="https://www.atlassian.com/software/jira">Report Bug</a>
-    ·
-    <a href="https://www.atlassian.com/software/jira">Request Feature</a>
-  </p>
-</p>
-
-
 ## About The Project
 
 [Product screenshot](https://example.com)
